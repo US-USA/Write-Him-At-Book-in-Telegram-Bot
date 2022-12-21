@@ -1,0 +1,37 @@
+{
+    "name": "Write-Him-At-Book-in-Telegram-Bot",
+    "description": "by @TE_GitHub",
+    "logo": "https://te.legra.ph/file/934a6e3faf98be1a084e1.jpg",
+    "stack": "container",
+    "keywords": [
+        "Telegram",
+        "Bot",
+        "Group: us7a5"
+    ],
+    "repository": "https://github.com/C2BoT/Write-Him-At-Book-in-Telegram-Bot",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID",
+            "value": "123"
+        },
+        "API_HASH": {
+            "description": "Your API Hash",
+            "value": "ABC"
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": "ABC"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
